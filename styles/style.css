@@ -1,0 +1,145 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* fonts */
+.ibm-plex-mono-regular {
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.raleway-primary {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  /* font-weight: <weight>; */
+  font-style: normal;
+}
+
+/* Header */
+header{
+  /* border: 5px solid tomato; */
+  max-width: 1280px;
+  height: 700px;
+  margin: 0 auto;
+  background-color: black;
+}
+/* Nav */
+nav{
+  max-width: 1110px;
+  height: 70px;
+  background-color: #1B1B1B;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 13px;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+}
+.nav-about{
+  display: flex;
+  /* border: 5px solid blueviolet; */
+  margin: 24px 95px 28px 95px;
+  gap: 70px;
+  list-style: none;
+
+}
+.nav-about li a{
+  text-decoration: none;
+  font-size: 14px;
+  color: #9C9C9C;
+}
+
+.contact-icon{
+  display: flex;
+  gap: 25px;
+  justify-content: center;
+  align-items: center;
+  margin-right: 95px;
+}
+
+/* Intro */
+.intro{
+  /* border: 2px solid blue; */
+  max-width: 1110px;
+  height: 350px;
+  margin: 150px 180px 0 180px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.info{
+  /* border: 2px solid tomato; */
+  width: 500px;
+  height: 240px;
+}
+.name{
+  font-size: 44px;
+  font-weight: bolder;
+  color: white;
+}
+.about-info{
+  color: #9C9C9C;
+  font-size: 14px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.intro button{
+   width: 307px;
+   height: 63px;
+   background-color: #3F8E00;
+   border-radius: 4px;
+   box-shadow: 0 0 8px #62BA1B;
+   border: none;
+}
+.intro button a{
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+}
+.intro button:hover{
+  background-color: rgba(255, 0, 0, 0.575);
+  cursor: pointer;
+  box-shadow: 0 0 10px orangered;
+  transition: calc(.5s);
+}
+.intro button:hover a
+{
+  font-size: 20px;
+  transition: calc(.5s);
+}
+
+/*head-foot*/
+.head-footer{
+  /* border: 2px solid orange; */
+  width: 1013px;
+  height: 98px;
+  margin: 0 auto;
+  margin-left: 180px;
+}
+.company{
+  display: flex;
+  gap: 30px;
+  margin-top: 10px;
+}
+.logo-box{
+  width: 160px;
+  height: 60px;
+  border: 1px solid #1B1B1B;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+}
+.company-logo{
+   width: 90px;
+   height: 20px;
+}
+.footer-title{
+  font-size: 14px;
+  color: white;
+}
