@@ -26,6 +26,7 @@ header{
   height: 700px;
   margin: 0 auto;
   background-color: black;
+  margin-bottom: 50px;
 }
 /* Nav */
 nav{
@@ -142,4 +143,98 @@ nav{
 .footer-title{
   font-size: 14px;
   color: white;
+}
+
+/* Case-study */
+.study
+{
+  /* border: 3px solid orange; */
+  max-width: 897px;
+  height: 1242px;
+  margin: 0 auto;
+}
+
+.study-head{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.study-cap{
+  font-size: 34px;
+  font-weight: bolder;
+  color: #080808;
+}
+.study-head p{
+  font-size: 14px;
+  line-height: 24px;
+  color: #9C9C9C;
+}
+
+.case-detail{
+  max-width: 892px;
+  height: 300px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.case-detail span{
+  background-color: rgb(255, 245, 232);
+  border-radius: 60px;
+  width: 72px;
+  height: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+  font-weight: bold;
+  color: #FFA217;
+  margin-left: 10px;
+  margin-bottom: 20px;
+}
+.case-detail h2{
+  font-size: 24px;
+  font-weight: bolder;
+  margin-bottom: 10px;
+}
+.case-detail p{
+  font-size: 14px;
+  color: #9C9C9C;
+  line-height: 24px;
+}
+.case-detail button{
+  width: 190px;
+  height: 40px;
+  border-radius: 4px;
+  border: none;
+  background-color: #FFA217;
+  margin-top: 40px;
+  margin-bottom: 17px;
+}
+.case-detail button a{
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: bold;
+  color: white;
+}
+
+.case-detail button:hover{
+  background-color: lightseagreen;
+  cursor: pointer;
+  box-shadow: 0 0 10px teal;
+  transition: calc(.5s);
+}
+.case-detail button:hover a
+{
+  color: black;
+  font-size: 15px;
+  transition: calc(.5s);
+}
+.cases{
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
 }
