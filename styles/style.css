@@ -241,3 +241,77 @@ nav{
   flex-direction: column;
   gap: 80px;
 }
+
+/* testimonial */
+#testimonial{
+  max-width: 1280px;
+  height: 804px;
+  margin: 0 auto;
+  background-color: #080808;
+  margin-top: 80px;
+}
+.test-head{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding-top: 50px;
+}
+.test-head h2{
+  font-size: 34px;
+  font-weight: bolder;
+  color: white;
+}
+.test-head p{
+  font-size: 14px;
+  line-height: 20px;
+  color: #9C9C9C;
+  text-align: center;
+}
+.test-detail{
+  width: 1280px;
+  display: flex;
+  /* border: 2px solid orange; */
+  margin: 0 auto;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 60px;
+  /* padding: 0px 180px 0 180px; */
+}
+.row{
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+.client
+{
+  max-width: 445px;
+  height: 212px;
+  border: 1px solid #484848;
+  border-radius: 5px;
+  padding-left: 30px;
+  padding-top: 20px;
+  border-right: none;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  
+}
+.client p{
+   font-size: 14px;
+   line-height: 24px;
+   color: #9C9C9C;
+   margin-bottom: 30px;
+}
+.client-info{
+  display: flex;
+  gap: 20px;
+}
+.client-info span{
+  position: relative;
+  top: 15px;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+}
